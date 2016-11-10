@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+
+  myapplication:
+    image: 4devnull/myapplication
+    ports:
+    - "80"
+    environment:
+      REDIS_HOST: myredis
+      REDIS_PORT: 6379
+
+  myredis:
+    image: redis
+
