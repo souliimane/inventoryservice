@@ -11,5 +11,5 @@ services:
       REDIS_PORT: 6379
 
   myredis:
-    image: redis
+    image: 4devnull/myredis
 
