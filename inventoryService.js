@@ -21,7 +21,7 @@ client.on("error", function (err) {
 
 app.get('/', function (req, res) {
     res.writeHeader(200, {"Content-Type": "text/html"});
-    res.write('Bonjour, je suis ' + os.hostname());
+    res.write('Ola, estoy ' + os.hostname());
     res.end();
 });
 
